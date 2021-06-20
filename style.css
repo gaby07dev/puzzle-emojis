@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+header{
+    background-color: #283db6;
+    background-image: linear-gradient(to top, #0ed33f 0%, #f3f026 100%);
+    text-align: center;
+    color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    color: #2575fc;
+    text-shadow: 1px 1px 5px #fff;
+}
+
+.main-container{
+    max-width: 450px;
+    /* height: 618px; */
+    /* min-height: calc(100vh - 57px); */
+    height: calc(100vh - 57px);
+
+    margin: 0 auto;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(70px, 100%));
+    gap: 20px 10px;
+    grid-template-rows: repeat(6, minmax(70px, 100%));
+    /* justify-items: center;
+    align-items: center; */
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.section-emoji {
+    background-color: #344fe6;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 100%;
+    padding: 10px;
+}
+
+.box-emoji{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    /* font-size: 5.5rem; Desktop*/
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+@media (max-width: 350px){
+    .box-emoji{ font-size: 2.5rem; }
+}
+@media ( max-height: 650px) {
+    .box-emoji{ font-size: 2.5rem; }
+}
+.box-block{
+    /* background-color: rebeccapurple; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.sing-interrogation{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    /* font-size: 6rem; Desktop*/
+    font-size: 3rem; 
+    background-color: brown;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    height: 100%;
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+.done{
+    z-index: 20;
+    /* background-color: rgb(47, 228, 47); */
+    background-image: linear-gradient(to top, #0ed33f 0%, #f3f026 100%);
+}

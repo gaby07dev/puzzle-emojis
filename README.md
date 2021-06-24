@@ -6,4 +6,4 @@ Pequeño juego básico de adividar donde está ubicado el mismo emoji.
   - CSS.
   - Javascript.
   
-Github Page: https://gaby07dev.github.io/puzzle-emojis
+Github Page: https://gabygramajo.github.io/puzzle-emojis
